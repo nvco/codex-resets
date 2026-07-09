@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CODEX_HOME_DIR="${CODEX_HOME:-${HOME}/.codex}"
+TARGET="${CODEX_HOME_DIR}/codex-resets"
+
+if [ ! -e "${TARGET}" ]; then
+  echo "codex-resets is not installed at ${TARGET}"
+  exit 0
+fi
+
+rm "${TARGET}"
+echo "Removed ${TARGET}"

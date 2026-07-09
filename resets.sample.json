@@ -1,0 +1,16 @@
+{
+  "resets": [
+    {
+      "title": "Full reset (Weekly + 5 hr)",
+      "expires_at": "2026-07-30T19:00:00Z"
+    },
+    {
+      "title": "Banked 5 hr reset",
+      "expires_at": "2026-07-14T16:30:00Z"
+    },
+    {
+      "title": "Urgent partial reset",
+      "expires_at": "2026-07-11T03:00:00Z"
+    }
+  ]
+}
