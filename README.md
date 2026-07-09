@@ -53,15 +53,7 @@ Or, if you added the shell function:
 codex-resets
 ```
 
-Expected output:
-
-```text
-Available resets: 2
-- Full reset (Weekly + 5 hr) - 18 days remaining
-  Expires: Jul 26, 2026, 05:55 PM MDT local / 2026-07-26 23:55 UTC
-- Full reset (Weekly + 5 hr) - 23 days remaining
-  Expires: Jul 31, 2026, 02:14 PM MDT local / 2026-07-31 20:14 UTC
-```
+The output shows available resets sorted by soonest expiry, with days remaining plus local and UTC expiry times.
 
 ## Test with sample data
 
