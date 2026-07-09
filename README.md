@@ -6,6 +6,8 @@ This is for Codex users signed in with a ChatGPT plan such as Plus, Pro, Busines
 
 Codex's built-in `/usage` can show current usage, but reset-credit expiry dates are hard to inspect quickly. This utility reads your local Codex ChatGPT auth file, calls the same ChatGPT reset-credit endpoint, and prints available resets sorted by soonest expiry.
 
+<img src="available-resets.png" alt="Available Codex reset credits" width="720">
+
 ## Prerequisites
 
 - Codex CLI installed and signed in with ChatGPT auth
