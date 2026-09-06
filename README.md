@@ -1,10 +1,17 @@
 # codex-resets
 
+> [!WARNING]
+> ### Outdated project, no longer maintained
+>
+> This utility was created to make banked reset credits and expiry dates easy to inspect before Codex CLI exposed them directly. OpenAI has since added that capability to `/usage`, so the original problem is now solved in Codex itself. This repository remains available for historical reference, but it is no longer needed for current Codex CLI users.
+
+---
+
 Show available banked Codex rate-limit resets and expiry dates from the command line.
 
 This is for Codex users signed in with a ChatGPT plan such as Plus, Pro, Business, or Enterprise.
 
-Codex's built-in `/usage` can show current usage, but reset-credit expiry dates are hard to inspect quickly. This utility reads your local Codex ChatGPT auth file, calls the same ChatGPT reset-credit endpoint, and prints available resets sorted by soonest expiry.
+When this utility was created, Codex's built-in `/usage` could show current usage, but reset-credit expiry dates were hard to inspect quickly. This utility reads your local Codex ChatGPT auth file, calls the same ChatGPT reset-credit endpoint, and prints available resets sorted by soonest expiry.
 
 <img src="available-resets.png" alt="Available Codex reset credits" width="720">
 
